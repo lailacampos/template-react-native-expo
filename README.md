@@ -259,7 +259,7 @@ yarn install</code></pre>
     <li>Baixe e extraia o <a href="https://developer.android.com/studio#android-studio-downloads" target="_blank">Android Commandline Tools</a> em um diretório como <code>~/android_sdk</code>.</li>
     <li>Adicione as seguintes variáveis de ambiente ao <code>~/.bashrc</code>:
         <pre><code>ANDROID_HOME=$HOME/android_sdk
-export PATH=$PATH:$HOME/android_sdk/cmdline-tools/bin && source ~/.bashrc</code></pre>
+export PATH=$PATH:$HOME/android_sdk/cmdline-tools/bin</code></pre>
     </li>
     <li>Copie o <code>adb.exe</code> do Windows para permitir execução no WSL:
     <br>
