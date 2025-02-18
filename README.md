@@ -263,8 +263,8 @@ export PATH=$PATH:$HOME/android_sdk/cmdline-tools/bin</code></pre>
     </li>
     <li>Copie o <code>adb.exe</code> do Windows para permitir execução no WSL:
     <br>
-        <b>OBS:</b> Substitua <code>SeuUsuario</code> pelo nome do seu usuário ou indique o caminho correto.        
-        <pre><code>sudo cp /mnt/c/Users/SeuUsuario/AppData/Local/Android/Sdk/platform-tools/adb.exe /mnt/c/Users/SeuUsuario/AppData/Local/Android/Sdk/platform-tools/adb</code></pre>
+        <b>OBS:</b> Substitua <code>SeuUsuario</code> pelo nome do seu usuário ou indique o caminho correto (normalmente `/mnt/c/Users/SeuUsuario/AppData/Local/Android/Sdk/platform-tools/adb.exe`).
+        <pre><code>sudo cp /mnt/d/Android/Sdk/platform-tools/adb.exe /mnt/d/Android/Sdk/platform-tools/adb</code></pre>
     </li>
     <li>Se houver problemas, tente copiar também:
         <pre><code>sudo cp /mnt/d/Android/Sdk/emulator/emulator.exe /mnt/d/Android/Sdk/emulator/emulator</code></pre>
